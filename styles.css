@@ -8,7 +8,7 @@
 
 /** START OF THE STYLING FOR THE HOME PAGE: INDEX.HTML*/
 
-body{
+body:not(.croissant-page){
     background-color: antiquewhite;
     overflow-x: hidden;
     margin: 0;
@@ -47,7 +47,7 @@ div.container{
     object-fit: cover;
     display: flex;
     width: 100%;
-    height: 300px;
+    height: 100%;
     border-radius: 5px;
     box-shadow: 0 0 12px 8px rgba(31, 31, 32, 0.101);
 }
@@ -59,7 +59,7 @@ p{
 }
 
 
-#gallery:hover{
+#gallery:hover and :not(.one){
     height: 105%;
     width:105%;
     border-radius: 10px;
@@ -91,4 +91,55 @@ p{
     margin: 0 20px;
 }
 
-/**  END OF THE STYLING FOR THE HOME PAGE   */
+/*!       --END OF THE STYLING FOR THE HOME PAGE--   */
+
+/* *      --STYLING FOR THE CROISSANT.HTML PAGE--     */
+
+.croissant-page{
+    background-color: beige;
+    margin:0 auto;
+}
+
+.recipe-croissant{
+    width:1250px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.one{
+    width: 30%;
+    height: 400px;
+    background-color:lightcoral ;
+}
+
+.two{
+    width: 60%;
+    height: 400px;
+    background-color:lightgreen ;
+}
+
+.three{
+    width: 35%;
+    height: 400px;
+    background-color:lightblue ;
+
+}
+
+.four{
+    width: 55%;
+    height: 400px;
+    background-color:lightsalmon ;
+
+    
+
+}
+
+.space{
+    margin: 10px;
+}
+
+
+
+
