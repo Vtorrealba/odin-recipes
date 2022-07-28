@@ -120,15 +120,14 @@ div.container{
 .four{
     width: 55%;
     height: 600px;
-    background-color:lightsalmon ;
-
-    
-
+    background-color:blanchedalmond ;
+    overflow-y:scroll;
 }
 
 .item-croissant{
     margin: 10px;
 }
+
 
 
 
@@ -146,3 +145,23 @@ li{
     font-size:1.68em;
     margin: 7px 16px;
 }
+
+.four::-webkit-scrollbar{
+    width: 1vw;
+}
+.four::-webkit-scrollbar-thumb{
+    background-color: rgba(253, 185, 150, 0.8);
+    border-radius: 0.5vw;
+    height: 1vh;
+}
+.four::-webkit-scrollbar-track{
+    background-color:rgb(255, 160, 122, 0.2);
+    border-radius: 0.2vw;
+}
+.four::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(253, 185, 150);
+}
+.four::-webkit-scrollbar-track:hover{
+    background-color:rgb(255, 206, 187);
+}
+
