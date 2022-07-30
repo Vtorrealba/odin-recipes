@@ -134,7 +134,7 @@ div.container{
 .text-box{
     border: 1px inset rgba(0, 0, 0, 0.12);
     border-radius: 6px;
-    box-shadow:  0 0 14px 2px rgba(175, 175, 175, 0.505);;
+    box-shadow:  0 0 14px 2px rgba(175, 175, 175, 0.505);
 }
 
 ul{
@@ -165,3 +165,32 @@ li{
     background-color:rgb(255, 206, 187);
 }
 
+h1, p, h2{
+    margin-inline: 1rem;
+    line-height: 1.6814rem;
+}
+
+h1{
+    font-size: 4vw;
+    margin-bottom: 3.5vw;
+    margin-top: 3.5vw;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+p:not(.item p){
+    margin-top: 0;
+    margin-bottom: 2em;
+    text-align:justify;
+}
+
+h2{
+    margin-bottom:1vh ;
+    font-size: 2em;
+}
+
+sup{
+   font-size:small ; 
+}
