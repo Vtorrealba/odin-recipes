@@ -53,7 +53,7 @@ div.container{
 }
 
 
-#gallery:hover:not([src="/images-recipes/croissant2.jpg"]){
+#gallery:hover:not([src="/images-recipes/croissant2.jpg"] , [src="/images-recipes/biscuit2.jpg"] ,[src="/images-recipes/pizza2.jpg"]){
     height: 105%;
     width:105%;
     border-radius: 10px;
@@ -84,7 +84,7 @@ div.container{
 
 /*!       --END OF THE STYLING FOR THE HOME PAGE--   */
 
-/* *      --STYLING FOR THE CROISSANT.HTML PAGE--     */
+/* *      --STYLING FOR THE CROISSANT.HTML,BISCUIT.HTML AND PIZZA.HTML PAGES--     */
 
 .croissant-page{
     background-color: beige;
